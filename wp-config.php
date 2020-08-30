@@ -65,6 +65,8 @@ define( 'NONCE_SALT',       ':;*YX9.=<>Bt`#tvD@%BfU^CvT>P1V^qQQF@mE,XI+GHc1w4d- 
  */
 $table_prefix = 'wp_';
 
+
+
 /**
  * For developers: WordPress debugging mode.
  *
@@ -79,6 +81,7 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
+@ini_set('upload_max_size' , '256M' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
